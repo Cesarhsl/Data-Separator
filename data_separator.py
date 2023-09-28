@@ -43,9 +43,10 @@ def divide_excel_in_batches(input_file_path, base_file_name, output_directory, b
 if __name__ == "__main__":
     # Parâmetros
     input_file_path = "seu_arquivo.xlsx"  # Substitua pelo caminho do seu arquivo Excel
-    base_file_name = "FABIANO_EXTRA_2_LOTE"  # Nome geral para os arquivos de lote
+    base_file_name = "NOME_BASE"  # Nome base para os arquivos de lote
     output_directory = "./"  # Diretório onde os arquivos serão salvos
     batch_size = 4999  # Número de linhas por lote (sem contar o cabeçalho)
+
 
     # Executar a função
     divide_excel_in_batches(input_file_path, base_file_name, output_directory, batch_size)
